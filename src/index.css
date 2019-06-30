@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.changeColor{
+ color: blue;
+}
+.showColor{
+  color: white;
+}
+
+.img{
+  background-image: url("./images/crick.png");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#over{
+  width:70px;
+  height:40px;
+  position:inherit;
+}
+
+.middle{
+  font-size:20px;
+  text-align: center;
+}
+
+.warning{
+  color:red;
+}
